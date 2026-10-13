@@ -1,0 +1,5 @@
+{"role": "user", "content": "Please draft an email to Jane about the meeting."}
+{"role": "assistant", "content": "Here is a draft. Want me to send it?"}
+{"role": "user", "content": "Yes, go ahead and send it."}
+{"role": "assistant", "content": "Sending now.", "tool_calls": [{"name": "send_email", "arguments": {"to": "jane@example.com", "body": "See you Thursday."}}]}
+{"role": "tool", "tool": "send_email", "result": "ok"}

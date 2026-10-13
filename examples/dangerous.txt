@@ -1,0 +1,4 @@
+# Custom dangerous tools for demos / CI
+send_email
+deploy
+merge_pr
